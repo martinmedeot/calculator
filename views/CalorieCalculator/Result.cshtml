@@ -1,0 +1,19 @@
+@model CalorieCalculator.Models.CalorieCalculatorModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Results</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true">
+</head>
+<body>
+    <form class="background-form">
+        <h2>Results</h2>
+        <p>BMR: @Model.BMR</p>
+        <p>TDEE: @Model.TDEE</p>
+        <a asp-action="Index">Calculate Again</a>
+    </form>
+</body>
+</html>
