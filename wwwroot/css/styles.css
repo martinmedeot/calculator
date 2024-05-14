@@ -1,0 +1,51 @@
+body {
+    background-image: url('https://img.menzig.fit/a/0000/52-h1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.background-form div {
+    margin-bottom: 15px;
+}
+
+.background-form label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.background-form input,
+.background-form select,
+.background-form button {
+    font-size: 1.2em;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.background-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.background-form button:hover {
+    background-color: #45a049;
+}
